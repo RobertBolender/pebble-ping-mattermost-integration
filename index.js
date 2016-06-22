@@ -14,6 +14,6 @@ app.post('/score/:winner/:winnerScore/:loser/:loserScore', function (req, res) {
   request.post(process.env.WEBHOOK_URL).form(data);
 });
 
-app.listen(3003, function(){
-  console.log('App listening on port 3003!');
+app.listen(5000, function(){
+  console.log('App listening on port 5000!');
 });
