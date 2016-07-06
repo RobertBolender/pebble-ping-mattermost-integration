@@ -1,4 +1,7 @@
-# Fahrenheit PingPongBot
+Pebble Ping Mattermost Integration
+==================================
+
+A Mattermost chat integration for reporting Ping Pong scores.
 
 Ridiculously simple REST API: the single `/score/` endpoint takes all the parameters it needs:
 
